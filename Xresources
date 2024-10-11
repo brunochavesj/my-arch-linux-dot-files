@@ -1,0 +1,89 @@
+! generic
+*foreground:                  #cccccc
+*background:                  #000000
+
+! black
+URxvt.color0: #51576D
+URxvt.color8: #626880
+
+! red
+URxvt.color1: #FF5555
+URxvt.color9: #FF6655
+
+! yellow
+URxvt.color3: #F1FA8C
+URxvt.color11: #FFFF88
+
+! blue
+URxvt.color4: #0189CC
+URxvt.color12: #0088CC
+
+! magenta
+URxvt.color5: #FF79C6
+URxvt.color13: #FF77CC
+
+! cyan
+URxvt.color6: #8BE9FD
+URxvt.color14: #88EEFF
+
+! white
+URxvt.color7: #B5BFE2
+URxvt.color15: #A5ADCE
+
+! urxvt
+urxvt.font: 		      xft:JetBrains Mono Nerd Font:pixelsize=17,xft:JetBrains Mono Nerd Font:size=9                  
+urxvt.url-launcher:           /usr/bin/xdg-open
+urxvt.matcher.button:         1
+urxvt.scrollBar:              true
+urxvt.termName:               xterm-256color
+urxvt.saveLines:              10000
+urxvt.inheritPixmap:          true
+urxvt.shading:                20
+urxvt.clipboard.autocopy:     true
+URxvt.perl: 		      true
+urxvt.perl-ext-common:        default,selection-to-clipboard,pasta,matcher,keyboard-select,resize-font,font
+urxvt.keysym.M-u:             perl:url-select:select_next
+urxvt.transparent:            true
+urxvt.buffered:               true
+urxvt.jumpScroll:             false
+urxvt.scrollTtyKeypress:      true
+urxvt.scrollTtyOutput:        false
+urxvt.scrollWithBuffer:       false
+urxvt.scrollstyle:            plain
+urxvt.secondaryScroll:        false
+urxvt.xftAntialias:           true
+!urxvt.color4:                RoyalBlue
+urxvt.color12:                RoyalBlue
+urxvt.matcher.rend.0:         Bold fg6
+urxvt.cursorBlink:            true
+urxvt.cursorColor:            green
+urxvt.mapAlert:               true
+urxvt.pointerBlank:           true
+urxvt.resource:               value
+urxvt.iso14755:               false
+urxvt.iso14755_52:            false
+
+! xterm
+xterm*VT100*geometry:         80x24
+xterm*faceName:               xft:xos4 Terminus:size=12:antialias=true
+xterm*faceSize:               12
+xterm*renderFont:             true
+xterm*utf8:                   always
+xterm*utf8Title:              true
+xterm*locale:                 true
+xterm*cursorColor:            #5f5faf
+xterm*cursorBlink:            false
+xterm*selectToClipboard:      true
+xterm*SaveLines:              10000
+xterm*transparent:            true
+XTerm*trimSelection:          true
+XTerm*cutNewline:             false
+XTerm*highlightSelection:     true
+
+! cursor
+Xcursor.theme:                Adwaita
+Xcursor.size:                 14
+
+! xft
+xft.antialias:                true
+
